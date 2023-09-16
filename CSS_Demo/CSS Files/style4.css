@@ -1,0 +1,19 @@
+.bluebox{
+   background-color: steelblue; 
+   width: 200px;
+   height: 100px;
+   position: absolute;
+   top:10px;
+   right:50px;
+}
+.yellowbox{
+    background-color: rgb(228, 236, 147);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top:0px;
+   
+}
+p{
+    font-size: 2em;
+}

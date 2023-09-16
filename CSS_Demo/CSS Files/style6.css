@@ -1,0 +1,31 @@
+.para1{
+    background-color: rgb(228, 106, 12);
+}
+.para2{
+    background-color: white;
+}
+.para3{
+    background-color: green;
+}
+p{
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column ;
+}
+.outerbox{
+    background-color: aliceblue;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+}
+.box{
+    background-color: blueviolet;
+    border: 1px solid white;
+    height: 100px;
+    width: 70px;
+   
+}

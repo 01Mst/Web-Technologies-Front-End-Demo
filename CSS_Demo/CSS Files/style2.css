@@ -1,0 +1,44 @@
+ul{
+    list-style-type:circle;
+}
+ol{
+    list-style-type: decimal;
+}
+#li1{
+    list-style-type: square;
+list-style-position: inside;
+}
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 238, 236);
+}
+
+table{
+    width: 300px;
+    margin: auto;
+    border-spacing: 10px ;
+}
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid rgb(226, 74, 9);
+}
+#id1{
+    text-align: right;
+    border-bottom-color: aliceblue;
+}
+th,td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(224, 232, 238);
+}
+tr:nth-child(odd){
+    background-color: whitesmoke;
+}
+td{
+    padding: 10px;
+    border: 1px solid red;
+    
+}

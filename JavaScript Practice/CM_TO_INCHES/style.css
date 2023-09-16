@@ -1,0 +1,49 @@
+body{
+    background-color:blanchedalmond;
+}
+#wrapper{
+   text-align: center;
+    width: 300px;
+    height: 400px;
+    border: 4px solid black ;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
+#id1{
+    color:blanchedalmond;
+}
+#input{
+    border-radius: 5px;
+    padding: 10px;
+}
+#output{
+    position: relative;
+    top:20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
+
+#result{
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width: 55px) {
+    #wrapper {
+        width: 10px; /* Expand to full width */
+        margin: 0; /* Remove margins */
+    }
+
+    #input {
+        width: 100%; /* Expand input to full width */
+    }
+
+    #output {
+        top: 10px; /* Adjust top spacing */
+    }
+}
+
+   
